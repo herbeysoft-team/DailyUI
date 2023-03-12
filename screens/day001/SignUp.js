@@ -144,6 +144,7 @@ const SignUp = ({navigation}) => {
         </TouchableOpacity>
       </View>
       </FadeInView>
+      <FadeInView>
       <View
         style={{
           flexDirection: "row",
@@ -197,6 +198,7 @@ const SignUp = ({navigation}) => {
           <FontAwesome5 name={"google"} size={24} color={COLORS.purple} />
         </TouchableOpacity>
       </View>
+      </FadeInView>
     </View>
   );
 };

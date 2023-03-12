@@ -57,6 +57,7 @@ const navigateToSingUp = () => {
             Embracing Innovation and exploring the latest technology tools
           </Text>
         </View>
+        <FadeInView>
         <View
           style={{
             paddingHorizontal: 20,
@@ -122,7 +123,7 @@ const navigateToSingUp = () => {
             </Text>
           </TouchableOpacity>
         </View>
-        
+        </FadeInView>
       
     </View>
   );
