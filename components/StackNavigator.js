@@ -8,6 +8,8 @@ import HomeScreen002 from '../screens/day002/HomeScreen';
 import Pay002 from '../screens/day002/Pay';
 import HomeScreen003 from '../screens/day003/HomeScreen';
 import Screen2 from '../screens/day003/Screen2';
+import CalculatorScreen from '../screens/day004/CalculatorScreen';
+import HomeScreen005 from '../screens/day005/HomeScreen';
 
 
 
@@ -16,7 +18,7 @@ const StackNavigator = () => {
     const Stack = createNativeStackNavigator();
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='Home3'>
+      <Stack.Navigator initialRouteName='Home5'>
         <Stack.Screen name="Home" component={HomeScreen001} options={{headerShown:false}}/>
         <Stack.Screen name="SignUp" component={SignUp001} options={{headerShown:false}}/>
 
@@ -25,7 +27,10 @@ const StackNavigator = () => {
 
         <Stack.Screen name="Home3" component={HomeScreen003} options={{headerShown:false}}/>
         <Stack.Screen name="Screen2" component={Screen2} options={{headerShown:false}}/>
-       
+
+        <Stack.Screen name="Calc" component={CalculatorScreen} options={{headerShown:false}}/>
+
+        <Stack.Screen name="Home5" component={HomeScreen005} options={{headerShown:false}}/>
         
 
       </Stack.Navigator>
